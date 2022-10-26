@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Tailwind</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-sky-900 text-white relative">
+    <!-- navbar -->
+    <nav class="w-full bg-transparent text-white">
+      <div class="container mx-auto grid h-16 content-center grid-cols-4">
+        <div class="font-semibold text-2xl">Sarno</div>
+        <nav class="col-span-3 w-full flex justify-end">
+          <ul class="flex w-3/4 justify-between">
+            <li>
+              <a href="" class="text-slate-300 hover:text-white"> Home </a>
+            </li>
+            <li>
+              <a href="" class="text-slate-300 hover:text-white">About</a>
+            </li>
+            <li>
+              <a href="" class="text-slate-300 hover:text-white">Service</a>
+            </li>
+            <li>
+              <a href="" class="text-slate-300 hover:text-white">Portfolio</a>
+            </li>
+            <li>
+              <a href="" class="text-slate-300 hover:text-white">Team</a>
+            </li>
+            <li>
+              <a href="" class="text-slate-300 hover:text-white">Contact</a>
+            </li>
+            <li>
+              <button>Get Started</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- Section Hero -->
+    <div class="container mx-auto pt-5 pb-20">
+      <div class="w-full grid grid-cols-2 items-center">
+        <div class="w-full">
+          <p class="font-extrabold text-4xl mb-1 w-[60%]">Better Solution For Your Business</p>
+          <p class="w-1/2 mb-10">We are team of talanted designer making websites with Tailwind</p>
+
+          <div class="w-full flex">
+            <button class="px-6 py-3 bg-sky-500 hover:bg-sky-600 duration-300 transition-all ease-in-out rounded-full">Get Started</button>
+            <button class="px-6 py-3 rounded-full flex">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 hover:text-sky-500">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+              </svg>
+              <span class="ml-1">Watch Video</span>
+            </button>
+          </div>
+        </div>
+        <div class="w-full flex">
+          <img src="public/img/img-1.png" alt="" class="w-full animate-pulse" />
+        </div>
+      </div>
+    </div>
+    <!-- Section Hero -->
+
+    <!-- Section partner -->
+    <div class="w-full flex justify-center pt-28 bg-white">
+      <div class="w-[60%] -mt-64 grid grid-cols-3 items-center justify-items-center">
+        <div class="w-1/2 bg-sky-900 hover:-translate-y-9 ease-in-out duration-700 transition-all aspect-square flex flex-col items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-1/2 aspect-square">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 12.75c1.148 0 2.278.08 3.383.237 1.037.146 1.866.966 1.866 2.013 0 3.728-2.35 6.75-5.25 6.75S6.75 18.728 6.75 15c0-1.046.83-1.867 1.866-2.013A24.204 24.204 0 0112 12.75zm0 0c2.883 0 5.647.508 8.207 1.44a23.91 23.91 0 01-1.152 6.06M12 12.75c-2.883 0-5.647.508-8.208 1.44.125 2.104.52 4.136 1.153 6.06M12 12.75a2.25 2.25 0 002.248-2.354M12 12.75a2.25 2.25 0 01-2.248-2.354M12 8.25c.995 0 1.971-.08 2.922-.236.403-.066.74-.358.795-.762a3.778 3.778 0 00-.399-2.25M12 8.25c-.995 0-1.97-.08-2.922-.236-.402-.066-.74-.358-.795-.762a3.734 3.734 0 01.4-2.253M12 8.25a2.25 2.25 0 00-2.248 2.146M12 8.25a2.25 2.25 0 012.248 2.146M8.683 5a6.032 6.032 0 01-1.155-1.002c.07-.63.27-1.222.574-1.747m.581 2.749A3.75 3.75 0 0115.318 5m0 0c.427-.283.815-.62 1.155-.999a4.471 4.471 0 00-.575-1.752M4.921 6a24.048 24.048 0 00-.392 3.314c1.668.546 3.416.914 5.223 1.082M19.08 6c.205 1.08.337 2.187.392 3.314a23.882 23.882 0 01-5.223 1.082"
+            />
+          </svg>
+          <p class="font-semibold">BUG</p>
+        </div>
+        <div class="w-1/2 bg-sky-900 hover:-translate-y-9 ease-in-out duration-700 transition-all aspect-square flex flex-col items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-1/2 aspect-square">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+          </svg>
+          <p class="font-semibold">INFO</p>
+        </div>
+        <div class="w-1/2 bg-sky-900 hover:-translate-y-9 ease-in-out duration-700 transition-all aspect-square flex flex-col items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-1/2 aspect-square">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+          </svg>
+          <p class="font-semibold">LOCATION</p>
+        </div>
+      </div>
+    </div>
+    <!-- Section partner -->
+
+    <!-- section about -->
+    <div class="w-full bg-white py-5 flex justify-center text-slate-500">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="text-2xl font-bold">ABOUT</p>
+        </div>
+        <div class="grid grid-cols-2 gap-4 mb-5">
+          <div class="">
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat sint ipsum iusto doloremque, incidunt quo consectetur unde quia aperiam perferendis non ea, vero necessitatibus. Sapiente autem quo eos quasi quaerat dolor
+              atque, quibusdam accusantium aspernatur velit sint ducimus asperiores exercitationem numquam voluptatibus hic molestias reprehenderit, eaque, magnam blanditiis eligendi culpa odit. Fugiat debitis unde neque, sit voluptatem
+              accusantium ut nam, dolores similique tenetur enim. Ipsam reiciendis dolorem, at velit cupiditate consequuntur eius animi nobis ratione, vero ab impedit provident. A modi aliquid est, ullam et inventore qui voluptatem iure,
+              vel commodi quas, at illo eum! Quidem ipsam esse nesciunt! Nemo.
+            </p>
+          </div>
+          <div class="">
+            <p class="text-justify">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor dolorum quisquam temporibus ipsa, harum quidem id. Ipsam atque aliquid doloremque quidem quasi dicta aut deleniti repudiandae magnam, alias totam, expedita
+              quibusdam? Quisquam ea rerum recusandae soluta qui natus, magnam provident consequuntur corporis hic exercitationem, eligendi cum error, assumenda nihil facilis molestiae porro! At molestias sit rerum ipsum ex provident
+              sapiente accusantium et quas dolorum sed cum expedita, saepe quidem in.
+            </p>
+            <button class="mx-4 mt-5 py-2 px-7 border-2 border-sky-500 rounded-3xl hover:bg-sky-500 duration-300 ease-in-out transition-all hover:text-white font-medium">Learn</button>
+          </div>
+        </div>
+        <div class="w-full grid gap-x-10 gap-y-5 grid-cols-3 items-center">
+          <!-- baris pertama -->
+          <div class="w-full aspect-video">
+            <img src="public/img/img-1.jpg" alt="" class="animate-pulse" />
+          </div>
+          <div class="w-full aspect-video"></div>
+          <div class="w-full aspect-video">
+            <img src="public/img/1.svg" alt="" class="animate-pulse" />
+          </div>
+          <!-- baris pertama -->
+
+          <!-- baris kedua -->
+          <div class="w-full aspect-video"></div>
+          <div class="w-full aspect-video">
+            <img src="public/img/img-2.jpg" alt="" class="animate-pulse" />
+          </div>
+          <div class="w-full aspect-video"></div>
+          <!-- baris kedua -->
+
+          <!-- baris ketiga -->
+          <div class="w-full aspect-video">
+            <img src="public/img/6.svg" alt="" class="animate-pulse" />
+          </div>
+          <div class="w-full aspect-video"></div>
+          <div class="w-full aspect-video">
+            <img src="public/img/img-3.jpg" alt="" class="animate-pulse" />
+          </div>
+          <!-- baris ketiga -->
+        </div>
+      </div>
+    </div>
+    <!-- section about -->
+  </body>
+</html>
